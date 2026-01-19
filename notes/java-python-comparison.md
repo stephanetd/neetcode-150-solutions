@@ -1,0 +1,29 @@
+# Python Dictionary vs Java HashMap
+python_dict = {}
+python_dict[key] = value
+if key in python_dict: ...
+
+# Java equivalent
+Map<Object, Object> map = new HashMap<>();
+map.put(key, value);
+if (map.containsKey(key)) { ... }
+
+# Python List vs Java ArrayList/Array
+python_list = []
+python_list.append(value)
+len(python_list)
+
+# Java equivalent
+List<Integer> list = new ArrayList<>();
+list.add(value);
+list.size()
+
+# Python Set vs Java HashSet
+python_set = set()
+python_set.add(value)
+value in python_set
+
+# Java equivalent
+Set<Integer> set = new HashSet<>();
+set.add(value);
+set.contains(value)
