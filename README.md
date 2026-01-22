@@ -60,6 +60,13 @@ neetcode-150/
 - Week 6-7: Heap & Backtracking
 - Week 8-10: Dynamic Programming
 
+## Implementation Workflow
+1. First Attempt (Python): Write intuitive solution
+2. Optimize: Analyze time/space complexity, refine
+3. Implement (Java): Translate to Java, noting syntax differences
+4. Compare: Contrast Pythonic vs Java approaches
+5. Document: Add comments explaining key insights
+
 ## 🚀 Getting Started
 ```bash
 git clone https://github.com/yourusername/neetcode-150-solutions.git
