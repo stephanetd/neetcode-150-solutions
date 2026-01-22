@@ -37,7 +37,7 @@ def create_problem_files():
         ('238', 'Product of Array Except Self', 'Medium'),
         ('36', 'Valid Sudoku', 'Medium'),
         ('128', 'Longest Consecutive Sequence', 'Medium'),
-        ('271', 'Encode and Decode Strings', 'Medium')
+        ('54', 'Spiral Matrix', 'Medium')
     ]
     
     for num, name, difficulty in problems:
