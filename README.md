@@ -4,7 +4,7 @@
 Dual-language (Python3 & Java) implementations of NeetCode 150 problems.
 
 ## 📂 Structure
-neetcode-150/
+neetcode-150-solutions/
 ├── .gitignore
 ├── README.md
 ├── CONTRIBUTING.md

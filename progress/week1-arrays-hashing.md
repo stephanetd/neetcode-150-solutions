@@ -11,7 +11,7 @@
 | 238. Product Except Self | 🔄 | 🔄 | 0h | Medium | ⭐⭐⭐ |
 | 36. Valid Sudoku | 🔄 | 🔄 | 0h | Medium | ⭐⭐ |
 | 128. Longest Consecutive | 🔄 | 🔄 | 0h | Medium | ⭐⭐⭐ |
-| 271. Encode & Decode | 🔄 | 🔄 | 0h | Medium | ⭐⭐ |
+| 54. Spiral Matrix | 🔄 | 🔄 | 0h | Medium | ⭐⭐ |
 ✅
 
 ## Success Metrics for Week 1
