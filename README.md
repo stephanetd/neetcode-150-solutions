@@ -1,32 +1,11 @@
 # NeetCode 150 Solutions
 
 ## 📚 Overview
+
 Dual-language (Python3 & Java) implementations of NeetCode 150 problems.
 
-## 📂 Structure
-neetcode-150-solutions/
-├── .gitignore
-├── README.md
-├── CONTRIBUTING.md
-├── progress/
-├── python/
-│   ├── arrays-hashing/
-│   │   ├── 217-contains-duplicate.py
-│   │   ├── ...
-│   ├── two-pointers/
-│   └── templates/
-│       └── solution_template.py
-├── java/
-│   ├── arrayshashing/
-│   │   ├── ContainsDuplicate.java
-│   │   ├── ...
-│   ├── twopointers/
-│   └── templates/
-│       └── SolutionTemplate.java
-├── notes/
-└──   ├── arrays-hashing-patterns.md
-
 ## 🗓️ Study Plan
+
 - Week 1: Arrays & Hashing
 - Week 2: Two Pointers & Sliding Window
 - Week 3: Stack & Linked Lists
@@ -35,6 +14,7 @@ neetcode-150-solutions/
 - Week 8-10: Dynamic Programming
 
 ## Implementation Workflow
+
 1. First Attempt (Python): Write intuitive solution
 2. Optimize: Analyze time/space complexity, refine
 3. Implement (Java): Translate to Java, noting syntax differences
@@ -42,6 +22,7 @@ neetcode-150-solutions/
 5. Document: Add comments explaining key insights
 
 ## 🚀 Getting Started
+
 ```bash
 git clone https://github.com/yourusername/neetcode-150-solutions.git
 cd neetcode-150-solutions
