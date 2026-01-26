@@ -10,14 +10,6 @@ import java.util.*;
  * Time Complexity: O()
  * Space Complexity: O()
  * 
- * Problem Statement:
- * [Brief problem description]
- * 
- * Example:
- * Input: 
- * Output: 
- * Explanation: 
- * 
  * Approach:
  * [Brief explanation of approach]
  * 

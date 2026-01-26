@@ -8,14 +8,6 @@ Topics: [Arrays, Hashing, etc.]
 Time Complexity: O()
 Space Complexity: O()
 
-Problem Statement:
-[Brief problem description]
-
-Example:
-Input: 
-Output: 
-Explanation: 
-
 Approach:
 [Brief explanation of approach]
 
