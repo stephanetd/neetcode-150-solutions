@@ -1,6 +1,7 @@
 # PATTERN 1: Hash Map for O(1) Lookups
 def hash_map_pattern(nums, target):
     """Two Sum, Contains Duplicate"""
+
     seen = {}
     for i, num in enumerate(nums):
         complement = target - num
@@ -17,6 +18,7 @@ def anagram_pattern(strs):
         sorted_s = ''.join(sorted(s))  # Key insight: sorted strings match for anagrams
         anagrams.setdefault(sorted_s, []).append(s)
     return list(anagrams.values())
+
 
 # PATTERN 3: Frequency Counting
 def frequency_pattern(nums, k):
