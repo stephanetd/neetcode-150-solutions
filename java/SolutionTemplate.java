@@ -7,8 +7,8 @@ import java.util.*;
  * Difficulty: [Easy/Medium/Hard]
  * Topics: [Arrays, Hashing, etc.]
  * 
- * Time Complexity: O()
- * Space Complexity: O()
+ * Problem:
+ * [Brief description of the problem]
  * 
  * Approach:
  * [Brief explanation of approach]
@@ -16,12 +16,14 @@ import java.util.*;
  * Key Insights:
  * 1. 
  * 2. 
- * 3. 
  * 
  * Edge Cases:
  * 1. 
  * 2. 
- * 3. 
+ * 
+ * Complexity:
+ * Time: O() - [Explanation]
+ * Space: O() - [Explanation]
  */
 
 public class SolutionTemplate {
@@ -32,30 +34,9 @@ public class SolutionTemplate {
         return result;
     }
     
-    public void test() {
-        // Test cases
-        Object[][] testCases = {
-            {input1, expected1},
-            {input2, expected2},
-        };
-        
-        for (int i = 0; i < testCases.length; i++) {
-            Object input = testCases[i][0];
-            Object expected = testCases[i][1];
-            Object result = solve(input);
-            
-            if (result.equals(expected)) {
-                System.out.println("Test case " + (i+1) + ": PASSED");
-            } else {
-                System.out.println("Test case " + (i+1) + ": FAILED");
-                System.out.println("  Expected: " + expected);
-                System.out.println("  Got: " + result);
-            }
-        }
-    }
-    
     public static void main(String[] args) {
+        System.out.println("Running tests for Solution...");
         Solution solution = new Solution();
-        solution.test();
+        System.out.println(solution.solve(/* test input */));  // Expected output
     }    
 }

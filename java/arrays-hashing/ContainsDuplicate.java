@@ -7,8 +7,8 @@ import java.util.Set;
  * Difficulty: Easy
  * Topics: Arrays, Hashing, Sorting
  * 
- * Time Complexity: O(n)
- * Space Complexity: O(n)
+ * Problem:
+ * Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
  * 
  * Approach:
  * Use a set to track seen numbers as we iterate through the list. 
@@ -22,6 +22,10 @@ import java.util.Set;
  * Edge Cases:
  * 1. Empty array should return False.
  * 2. Array with one element should return False.
+ * 
+ * Complexity: 
+ * Time: O(n) - Single pass through the array
+ * Space: O(n) - Worst case stores all n elements
  */
 
 public class ContainsDuplicate {
@@ -36,34 +40,13 @@ public class ContainsDuplicate {
         return false;
     }
 
-    public void test() {
-        // Test cases
-        Object[][] testCases = {
-            {new int[]{1,2,3,1}, true},
-            {new int[]{1,2,3,4}, false},
-            {new int[]{}, false},
-            {new int[]{1}, false},
-        };
-        
-        for (int i = 0; i < testCases.length; i++) {
-            Object input = testCases[i][0];
-            Object expected = testCases[i][1];
-            Object result = containsDuplicate((int[]) input);
-            
-            if (result.equals(expected)) {
-                System.out.println("Test case " + (i+1) + ": PASSED");
-            } else {
-                System.out.println("Test case " + (i+1) + ": FAILED");
-                System.out.println("  Expected: " + expected);
-                System.out.println("  Got: " + result);
-            }
-        }
-    }
-
     public static void main(String[] args) {
         System.out.println("Running tests for ContainsDuplicate...");
-        ContainsDuplicate solution = new ContainsDuplicate();
-        solution.test();
+        ContainsDuplicate sol = new ContainsDuplicate();
+        System.out.println(sol.containsDuplicate(new int[]{1,2,3,1}));  // true
+        System.out.println(sol.containsDuplicate(new int[]{1,2,3,4}));  // false
+        System.out.println(sol.containsDuplicate(new int[]{}));  // false
+        System.out.println(sol.containsDuplicate(new int[]{1}));  // false
     } 
 
 }

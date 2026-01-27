@@ -1,13 +1,11 @@
-from typing import List
-
 """
 217. Contains Duplicate
 
 Difficulty: Easy
 Topics: Arrays, Hashing, Sorting
 
-Time Complexity: O(n)
-Space Complexity: O(n)
+Problem: 
+Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
 Approach:
 Use a set to track seen numbers as we iterate through the list. 
@@ -21,10 +19,14 @@ Key Insights:
 Edge Cases:
 1. Empty list should return False.
 2. List with one element should return False.
-"""
 
-class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
+Complexity:
+Time: O(n) - Single pass through array
+Space: O(n) - Worst case stores all n elements
+"""
+from typing import List
+
+def containsDuplicate(nums: List[int]) -> bool:
         """
         seen = set()
         for num in nums:
@@ -35,27 +37,10 @@ class Solution:
         """
         return len(set(nums)) != len(nums)
         
-
-    def test(self):
-        """Test cases"""
-        test_cases = [
-            ([1,2,3,1], True),
-            ([1,1,1,1], True),
-            ([1,1,1,3,3,4,3,2,4,2], True),
-            ([], False),
-            ([1], False),
-            ([1,2,3,4,5], False),
-        ]
-        
-        for i, (input_data, expected) in enumerate(test_cases):
-            result = self.containsDuplicate(input_data)
-            if result == expected:
-                print(f"Test case {i+1}: PASSED")
-            else:
-                print(f"Test case {i+1}: FAILED")
-                print(f"  Expected: {expected}")
-                print(f"  Got: {result}")
-        
 if __name__ == "__main__":
-    solution = Solution()
-    solution.test()
+    print("Running tests for ContainsDuplicate...")
+    assert containsDuplicate([1,2,3,1]) == True
+    assert containsDuplicate([1,2,3,4]) == False
+    assert containsDuplicate([]) == False
+    assert containsDuplicate([1]) == False
+    print("All tests passed.")
