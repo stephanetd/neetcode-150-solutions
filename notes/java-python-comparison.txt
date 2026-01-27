@@ -2,12 +2,13 @@
 python_dict = {}
 python_dict[key] = value
 if key in python_dict: ...
+python_defaultdict(int)[key] += 1
 
 ### Java equivalent
-
 Map<Object, Object> map = new HashMap<>();
 map.put(key, value);
 if (map.containsKey(key)) { ... }
+map.put(key, map.getOrDefault(key, defaultValue: 0) + 1)
 
 ### Python List vs Java ArrayList/Array
 python_list = []
@@ -15,7 +16,7 @@ python_list.append(value)
 len(python_list)
 
 ### Java equivalent
-List<Integer> list = new ArrayList<>();
+List<Integer> list = new ArrayList<>(); or int[] array = new int[]{}
 list.add(value);
 list.size()
 
