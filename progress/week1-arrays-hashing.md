@@ -33,9 +33,8 @@
 ### Wednesday, [28-01-2026]
 
 **Goals:**
--[] Complete Group Anagrams (Python & Java)
--[] Complete Top K Frequent Elements (Python & Java)
--[] Complete Product of Array Except Self (Python & Java)
--[] Complete Valid Sudoku (Python)
+-[x] Complete Group Anagrams (Python & Java)
+-[x] Complete Top K Frequent Elements (Python & Java)
+
 **Notes:**
 ...
