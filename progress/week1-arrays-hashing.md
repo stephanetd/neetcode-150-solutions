@@ -23,12 +23,19 @@
 
 ## 🎯 Daily Log
 
-### Monday, [01-26-2026]
+### Monday, [26-01-2026]
 
 **Goals:**
 -[x] Complete Contains Duplicate (Python & Java)
 -[x] Complete Valid Anagram (Python & Java)  
 -[x] Complete Two Sum (Python & Java)
 
+### Wednesday, [28-01-2026]
+
+**Goals:**
+-[] Complete Group Anagrams (Python & Java)
+-[] Complete Top K Frequent Elements (Python & Java)
+-[] Complete Product of Array Except Self (Python & Java)
+-[] Complete Valid Sudoku (Python)
 **Notes:**
 ...
