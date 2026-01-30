@@ -36,5 +36,11 @@
 -[x] Complete Group Anagrams (Python & Java)
 -[x] Complete Top K Frequent Elements (Python & Java)
 
+## Friday, [30-01-2026]
+
+**Goals:**
+-[x] Complete Product of Array Except Self (Python & Java)
+-[] Complete Longest Consecutive Sequence (Python & Java)
+
 **Notes:**
 ...
