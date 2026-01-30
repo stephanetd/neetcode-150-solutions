@@ -40,7 +40,7 @@
 
 **Goals:**
 -[x] Complete Product of Array Except Self (Python & Java)
--[] Complete Longest Consecutive Sequence (Python & Java)
+-[x] Complete Longest Consecutive Sequence (Python & Java)
 
 **Notes:**
 ...
