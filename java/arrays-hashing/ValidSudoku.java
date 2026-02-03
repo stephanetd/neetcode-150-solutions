@@ -29,6 +29,40 @@
  * Space: O(1) - The maximum number of elements in any set is 9, so space is constant.
  */
 
+import java.util.HashSet;
+
 public class ValidSudoku {
     // Implementation
+
+    public boolean isValidSudoku(char[][] board) {
+        HashSet<Character>[] rows = new HashSet[9];
+        HashSet<Character>[] cols = new HashSet[9];
+        HashSet<Character>[] boxes = new HashSet[9];
+
+        for (int i = 0; i < 9; i++) {
+            rows[i] = new HashSet<>();
+            cols[i] = new HashSet<>();
+            boxes[i] = new HashSet<>();
+        }
+
+        for (int r = 0; r < 9; r++) {
+            for (int c = 0; c < 9; c++) {
+                char num = board[r][c];
+                if (num == '.') {
+                    continue;
+                }
+                int boxIndex = (int)(r / 3) * 3 + (int)(c / 3);
+                if (rows[r].contains(num) ||
+                    cols[c].contains(num) ||
+                    boxes[boxIndex].contains(num)) {
+                    return false;
+                }
+                rows[r].add(num);
+                cols[c].add(num);
+                boxes[boxIndex].add(num);
+            }
+        }
+
+        return true;
+    }
 }

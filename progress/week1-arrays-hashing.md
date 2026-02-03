@@ -9,10 +9,10 @@
 | 1. Two Sum | ✅ | ✅ | 6min | Easy | ⭐⭐⭐ |
 | 49. Group Anagrams | ✅ | ✅ | 15min | Medium | ⭐⭐⭐ |
 | 347. Top K Frequent | ✅ | ✅ | 17min | Medium | ⭐⭐ |
-| 238. Product Except Self | ✅ | ✅ | 15min | Medium | ⭐⭐ |
-| 36. Valid Sudoku | 🔄 | 🔄 | 0h | Medium |  |
+| 238. Product Except Self | ✅ | ✅ | 15min | Medium | ⭐⭐⭐ |
+| 36. Valid Sudoku | ✅ | ✅ | 20min | Medium | ⭐⭐⭐ |
 | 128. Longest Consecutive | ✅ | ✅ | 17min | Medium | ⭐⭐⭐ |
-| 54. Spiral Matrix | 🔄 | 🔄 | 0h | Medium |  |
+| 54. Spiral Matrix | ✅ | ✅ | 25min | Medium | ⭐⭐ |
 
 ## Success Metrics for Week 1
 
@@ -41,6 +41,12 @@
 **Goals:**
 - [x] Complete Product of Array Except Self (Python & Java)
 - [x] Complete Longest Consecutive Sequence (Python & Java)
+
+### Monday, [02-02-2026]
+
+**Goals:**
+- [x] Complete Valid Sudoku (Python & Java)
+- [x] Complete Spiral Matrix (Python & Java)
 
 **Notes:**
 Product of Array Except Self and Top K Frequent Elements added to the Rehearsal list, to practice again on Saturday.
