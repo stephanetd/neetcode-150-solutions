@@ -1,6 +1,6 @@
 from typing import List
 """
-LeetCode Problem: [Problem Number] - [Problem Name]
+[Problem Number] - [Problem Name]
 
 Difficulty: [Easy/Medium/Hard]
 Topics: [Arrays, Hashing, etc.]
