@@ -1,3 +1,18 @@
+import os
+
+def create_directory():
+    """Create the directory structure for Week 2"""
+    directories = [
+        'python/two-pointers-sliding-window',
+        'java/two-pointers-sliding-window',
+    ]
+    
+    for directory in directories:
+        os.makedirs(directory, exist_ok=True)
+        print(f"Created: {directory}")
+    
+    print("\n✅ Directory structure created!")
+
 def create_problem_files():
     """Create empty solution files for all Week 2 problems with enhanced templates"""
     problems = [
@@ -30,9 +45,9 @@ def create_problem_files():
             f.write(f'Approach:\n')
             f.write(f'[Brief explanation of approach]\n\n')
             f.write(f'Key Insights:\n')
-            f.write(f'1. \n')
+            f.write(f'1. \n\n')
             f.write(f'Edge Cases:\n')
-            f.write(f'1. \n')
+            f.write(f'1. \n\n')
             f.write(f'Complexity:\n')
             f.write(f'Time: O() - [Explanation]\n')
             f.write(f'Space: O() - [Explanation]\n')
@@ -59,11 +74,9 @@ def create_problem_files():
             f.write(f' * [Brief explanation of approach]\n')
             f.write(f' * \n')
             f.write(f' * Key Insights:\n')
-            f.write(f' * 1. \n')
-            f.write(f' * \n')
+            f.write(f' * 1. \n\n')
             f.write(f' * Edge Cases:\n')
-            f.write(f' * 1. \n')
-            f.write(f' * \n')
+            f.write(f' * 1. \n\n')
             f.write(f' * Complexity:\n')
             f.write(f' * Time: O() - [Explanation]\n')
             f.write(f' * Space: O() - [Explanation]\n')
@@ -80,3 +93,9 @@ def create_problem_files():
     print(f"✅ Created {len(problems) * 2} solution files with enhanced templates")
     print(f"📁 Python files: python/two-pointers-sliding-window/")
     print(f"📁 Java files: java/two-pointers-sliding-window/")
+
+if __name__ == "__main__":
+    print("🚀 Setting up NeetCode 150 Week 2: Two Pointers & Sliding Window\n")
+    create_directory()
+    create_problem_files()
+    print("\n🎉 Setup complete! Happy coding!")
