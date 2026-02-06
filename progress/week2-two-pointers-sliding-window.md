@@ -8,9 +8,9 @@
 | 121. Best Time to Buy and Sell Stock | ✅ | ✅ | 10min | Easy | ⭐⭐⭐ |
 | 167. Two Sum II - Input Array Is Sorted | ✅ | ✅ | 15min | Medium | ⭐⭐⭐ |
 | 15. 3Sum | ✅ | ✅ | 18min | Medium | ⭐⭐⭐ |
-| 11. Container With Most Water | 🔄 | 🔄 | 0min | Medium | |
-| 42. Trapping Rain Water | 🔄 | 🔄 | 0min | Hard | |
-| 3. Longest Substring Without Repeating Characters | 🔄 | 🔄 | 0min | Medium | |
+| 11. Container With Most Water | ✅ | ✅ | 10min | Medium | ⭐⭐⭐ |
+| 42. Trapping Rain Water | ✅ | ✅ | 23min | Hard | ⭐⭐⭐ |
+| 3. Longest Substring Without Repeating Characters | ✅ | ✅ | 17min | Medium | ⭐⭐⭐ |
 | 424. Longest Repeating Character Replacement | 🔄 | 🔄 | 0min | Medium | |
 | 567. Permutation in String | 🔄 | 🔄 | 0min | Medium | |
 | 76. Minimum Window Substring | 🔄 | 🔄 | 0min | Hard | |
@@ -37,8 +37,18 @@
 - [x] Complete Two Sum II - Input Array Sorted (Python & Java)
 - [x] Complete 3Sum (Python & Java)
 
-### Wednesday, [04-02-2026]
+### Thursday, [05-02-2026]
 
 **Goals:**
-- [] Complete Container With Most Water (Python & Java)
-- [] Complete Trapping Rain Water (Python & Java)
+- [x] Complete Longest Substring Without Repeating Characters (Python & Java)
+- [x] Complete Container With Most Water (Python & Java)
+- [x] Complete Trapping Rain Water (Python & Java)
+
+### Friday, [06-02-2026]
+
+**Goals:**
+- [] Complete Longest Repeating Character Replacement (java & Python)
+- [] Complete Permutation in String (Python & Java)
+- [] Complete Minimum Window Substring (Python & Java)
+
+**Notes:**
