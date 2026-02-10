@@ -11,7 +11,7 @@
 | 11. Container With Most Water | ✅ | ✅ | 10min | Medium | ⭐⭐⭐ |
 | 42. Trapping Rain Water | ✅ | ✅ | 23min | Hard | ⭐⭐⭐ |
 | 3. Longest Substring Without Repeating Characters | ✅ | ✅ | 17min | Medium | ⭐⭐⭐ |
-| 424. Longest Repeating Character Replacement | 🔄 | 🔄 | 0min | Medium | |
+| 424. Longest Repeating Character Replacement | ✅ | ✅ | 25min | Medium | ⭐ |
 | 567. Permutation in String | 🔄 | 🔄 | 0min | Medium | |
 | 76. Minimum Window Substring | 🔄 | 🔄 | 0min | Hard | |
 | 239. Sliding Window Maximum | 🔄 | 🔄 | 0min | Hard | |
@@ -44,11 +44,18 @@
 - [x] Complete Container With Most Water (Python & Java)
 - [x] Complete Trapping Rain Water (Python & Java)
 
-### Friday, [06-02-2026]
+### Monday, [06-02-2026]
 
 **Goals:**
-- [] Complete Longest Repeating Character Replacement (java & Python)
+- [x] Complete Longest Repeating Character Replacement (java & Python)
+
+### Tuesday, [09-02-2026]
+
+**Goals:**
 - [] Complete Permutation in String (Python & Java)
 - [] Complete Minimum Window Substring (Python & Java)
+- [] Complete Sliding Window Maximum (Python & Java)
+- [] Complete the Rehearsal list
 
 **Notes:**
+Took a bit of a break on the week-end, need to ramp up this week (09/02 to 13/02). At least 3 problems a day
