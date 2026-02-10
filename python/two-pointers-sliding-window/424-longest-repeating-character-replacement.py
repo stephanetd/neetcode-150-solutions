@@ -40,6 +40,8 @@ def characterReplacement(s: str, k: int) -> int:
         else:
             max_length = max(max_length, window_length)
 
+    return max_length
+
 if __name__ == "__main__":
     # Test cases
     print(characterReplacement("ABAB", 2))  # Output: 4
