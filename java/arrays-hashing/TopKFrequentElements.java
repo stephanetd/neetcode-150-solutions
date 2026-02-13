@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
 
@@ -45,6 +47,39 @@ public class TopKFrequentElements {
         }
         return res;
     }
+    /*
+    Bucket Sort
+     
+    public int[] topKFrequent(int[] nums, int k) {
+        Map<Integer, Integer> frequency = new HashMap<>();
+        for (int num: nums) {
+            frequency.put(num, frequency.getOrDefault(num, 0) + 1);
+        }
+
+        List<Integer>[] buckets = new ArrayList[nums.length + 1];
+        for (int i = 0; i < buckets.length; i++) {
+            buckets[i] = new ArrayList();
+        }
+
+        for (Map.Entry<Integer, Integer> entry: frequency.entrySet()) {
+            int freq = entry.getValue();
+            buckets[freq].add(entry.getKey());
+        }
+
+        int[] res = new int[k];
+        int idx = 0;
+        for (int i = buckets.length-1; i >= 0; i--) {
+            for (int num: buckets[i]) {
+                res[idx] = num;
+                idx++;
+                if (idx == k)
+                    return res;
+            }
+        }
+
+        return new int[0];
+    }
+        */
 
     public static void main(String[] args) {
         // Example test cases

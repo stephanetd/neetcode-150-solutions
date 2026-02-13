@@ -1,18 +1,22 @@
 # Python Dictionary vs Java HashMap
 python_dict = {}
 python_dict[key] = value
+
 if key in python_dict: ...
 python_defaultdict(int)[key] += 1
 python_defaultdict(list)[key].append(val)
+
 for key in dict.keys():
 for item in dict.items():
 
 # Java equivalent
 Map<Object, Object> map = new HashMap<>();
 map.put(key, value);
+
 if (map.containsKey(key)) { ... }
 map.put(key, map.getOrDefault(key, defaultValue: 0) + 1)
 map.put(key).add(val)
+
 for (Object key : map.keySet()) {}
 for (Map.Entry<Object, Object> entry: map.entrySet()) {}
 
