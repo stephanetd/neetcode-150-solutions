@@ -9,12 +9,12 @@
 | 167. Two Sum II - Input Array Is Sorted | ✅ | ✅ | 15min | Medium | ⭐⭐⭐ |
 | 15. 3Sum | ✅ | ✅ | 18min | Medium | ⭐⭐⭐ |
 | 11. Container With Most Water | ✅ | ✅ | 10min | Medium | ⭐⭐⭐ |
-| 42. Trapping Rain Water | ✅ | ✅ | 23min | Hard | ⭐⭐⭐ |
-| 3. Longest Substring Without Repeating Characters | ✅ | ✅ | 17min | Medium | ⭐⭐⭐ |
-| 424. Longest Repeating Character Replacement | ✅ | ✅ | 25min | Medium | ⭐⭐ |
-| 567. Permutation in String | ✅ | ✅ | 25min | Medium | ⭐ |
-| 76. Minimum Window Substring | ✅ | ✅ | 40min | Hard | ⭐ |
-| 239. Sliding Window Maximum | 🔄 | 🔄 | 0min | Hard | |
+| 42. Trapping Rain Water | ✅ | ✅ | 18min | Hard | ⭐⭐⭐ |
+| 3. Longest Substring Without Repeating Characters | ✅ | ✅ | 12min | Medium | ⭐⭐⭐ |
+| 424. Longest Repeating Character Replacement | ✅ | ✅ | 18min | Medium | ⭐⭐⭐ |
+| 567. Permutation in String | ✅ | ✅ | 17min | Medium | ⭐⭐⭐ |
+| 76. Minimum Window Substring | ✅ | ✅ | 25min | Hard | ⭐⭐⭐ |
+| 239. Sliding Window Maximum | ✅ | ✅ | 30min | Hard |⭐⭐⭐ |
 
 ## Success Metrics for Week 2
 
@@ -62,3 +62,8 @@ Took a bit of a break on the week-end, need to ramp up this week (09/02 to 13/02
 
 **Goals:**
 - [x] Complete Sliding Window Maximum (Python)
+
+### Friday, [14-02-2026]
+
+**Goals:**
+- [x] Complete the Rehearsal list of problems from week 1 & 2
