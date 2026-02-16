@@ -12,11 +12,12 @@ Approach:
 We use two hashmaps, one (Counter) for the character frequency of t and another (defaultdict) for the moving window for the substring in s.
 
 Key Insights
-1.
+1. We need to keep track of how many unique characters from t we have in our current window and how many we still need to find. This allows us to know when we have a valid window that contains all characters of t.
+2. When we have a valid window, we try to shrink it from the left to find the smallest valid window. This involves updating our counts and checking if we still have a valid window after shrinking.
 
 Complexity:
-Time: O() - 
-Space: O() - 
+Time: O(m + n) - where m is the length of s and n is the length of t, since we are traversing both strings at most once. 
+Space: O(m + n) - for the hashmaps storing character counts, in the worst case where all characters are unique. 
 """
 from collections import Counter, defaultdict
 

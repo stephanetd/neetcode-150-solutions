@@ -41,7 +41,7 @@ def maxSlidingWindow(nums: List[int], k: int) -> List[int]:
         if idx >= k and nums[idx - k] == q[0]:
             q.popleft()
         
-        # append maximum of current window to result
+        #   
         if idx >= k - 1:
             res.append(q[0])    
 
