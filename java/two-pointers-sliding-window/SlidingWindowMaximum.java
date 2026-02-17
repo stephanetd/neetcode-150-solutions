@@ -51,5 +51,6 @@ public class SlidingWindowMaximum {
                 res.add(q.peek());
             }
         }
-        return res.toArray();
+        return res.stream().mapToInt(i -> i).toArray();
+    }
 }

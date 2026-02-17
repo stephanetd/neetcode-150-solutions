@@ -2,28 +2,49 @@
 20. Valid Parentheses
 
 Difficulty: Easy
-Topics: Two Pointers, Sliding Window
+Topics: String, Stack
 
 Problem:
-[Brief description of the problem]
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+An input string is valid if:
+    Open brackets must be closed by the same type of brackets.
+    Open brackets must be closed in the correct order.
+    Every close bracket has a corresponding open bracket of the same type.
 
 Approach:
-[Brief explanation of approach]
+Use a stack to keep track of opening brackets. For each character in the string:
+- If it's an opening bracket, push it onto the stack.
+- If it's a closing bracket, check if the stack is not empty and the top of the stack is the corresponding opening bracket. If it is, pop from the stack. Otherwise, return False.
+At the end, if the stack is empty, return True; otherwise, return False.
 
 Key Insights:
-1. 
-
-Edge Cases:
-1. 
+1. The order of brackets matters, which is why a stack is an appropriate data structure for this problem.
 
 Complexity:
-Time: O() - [Explanation]
-Space: O() - [Explanation]
+Time: O(n), where n is the length of the string, since we need to check each character once.
+Space: O(n) in the worst case, if all characters are opening brackets, we will push all of them onto the stack.
 """
 
-def solution():
-    pass
+def isValid(s: str) -> bool:
+    s_map = {'(':')', '[':']', '{':'}'}
+    stack = []
+    for symbol in s:
+        # If it's an opening bracket
+        if symbol in s_map.keys():
+            stack.append(symbol) # push onto the stack
+            # If it's a closing bracket
+        elif symbol in s_map.values():
+            # If the stack is not empty and the top of the stack is the corresponding opening bracket
+            if stack and symbol == s_map[stack[-1]]:
+                stack.pop()
+            else:
+                return False
+    return len(stack) == 0
 
+    
 if __name__ == "__main__":
     # Test cases
-    pass
+    print(isValid("()"))  # True
+    print(isValid("()[]{}"))  # True
+    print(isValid("(]"))  # False
+    print(isValid("([)]"))  # False

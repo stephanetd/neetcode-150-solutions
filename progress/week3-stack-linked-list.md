@@ -4,8 +4,8 @@
 
 | Problem | Python | Java | Time Spent | Difficulty | Mastery |
 |---------|--------|------|------------|------------|---------|
-| 20. Valid Parentheses | 🔄 | 🔄 | 0min | Easy |  |
-| 394. Decode String | 🔄 | 🔄 | 0min | Medium |  |
+| 20. Valid Parentheses | ✅ | ✅ | 10min | Easy | ⭐⭐⭐ |
+| 394. Decode String | ✅ | 🔄 | 35min | Medium | ⭐ |
 | 155. Min Stack | 🔄 | 🔄 | 0min | Medium |  |
 | 150. Evaluate Polish Reverse Notation | 🔄 | 🔄 | 0min | Medium |  |
 | 739. Daily Temperatures | 🔄 | 🔄 | 0min | Medium |  |
@@ -30,3 +30,9 @@
 4. Pattern Recognition: Ability to identify which pattern to use
 
 ## 🎯 Daily Log
+
+### Monday, [16-02-2026]
+
+**Goals:**
+- [x] Complete Valid Parentheses (Python & Java)
+- [x] Complete Decode String (Python)

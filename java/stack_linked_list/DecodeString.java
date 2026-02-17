@@ -1,18 +1,17 @@
 /**
  * 394. Decode String
  * Difficulty: Medium
- * Topics: Two Pointers, Sliding Window
+ * Topics: String, Stack, Recursion
  * 
  * Problem:
- * [Brief description of the problem]
+ * Given an encoded string, return its decoded string.
+ * The encoding rule is: k[encoded_string], where the encoded_string inside the square brackets is being repeated exactly k times. 
+ * Note that k is guaranteed to be a positive integer.
  * 
  * Approach:
- * [Brief explanation of approach]
+ * 
  * 
  * Key Insights:
- * 1. 
-
- * Edge Cases:
  * 1. 
 
  * Complexity:
@@ -25,7 +24,7 @@ public class DecodeString {
         // Test cases
     }
 
-    public static Object solution() {
-        return null;
+    public static String decodeString(String s) {
+        return "";
     }
 }
