@@ -1,4 +1,4 @@
-# NeetCode 150 Solutions
+# NeetCode Blind 75 Solutions
 
 ## 📚 Overview
 
